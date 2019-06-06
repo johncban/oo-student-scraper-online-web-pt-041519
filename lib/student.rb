@@ -22,10 +22,6 @@ class Student
     self
   end
 
-  def new
-
-  end
-
   def self.all
     @@all
   end
