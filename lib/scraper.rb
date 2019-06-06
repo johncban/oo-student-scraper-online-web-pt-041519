@@ -2,7 +2,7 @@ require 'open-uri'
 require 'pry'
 
 class Scraper
-
+  binding.rb
   def self.scrape_index_page(index_url)
     in_page = Nokogiri::HTML(open(index_url))
     students = []
