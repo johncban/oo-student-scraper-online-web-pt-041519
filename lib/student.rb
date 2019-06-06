@@ -21,7 +21,6 @@ class Student
     attributes_hash.each{|a, v|
       send("#{a}=", v)
     }
-    self
   end
 
   def self.all
